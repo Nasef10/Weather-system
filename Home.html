@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="images/logout-green-round-button.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login-system.css">
+</head>
+<body>
+    <nav>
+        <h1>MyApp <a href="index.html"><i class="fa-solid fa-cloud"></i></a></h1>
+        <button onclick="logout()">Logout</button>
+    </nav>
+
+    <div class="home-content">
+        <h1>Welcome, <span id="userName"></span>!</h1>
+    </div>
+
+    <!-- Add SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/login-system.js"></script>
+</body>
+</html>

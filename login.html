@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/login-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login-system.css">
+    <title>LogIn-System</title>
+</head>
+<body>
+    <nav>
+        <h1>MyApp</h1>
+        <a href="index.html"><button class="w-100" >Back to weather site</button></a>
+    </nav>
+    <div class="form-wrapper">
+        <h2>Login</h2>
+        <input type="email" id="loginEmail" placeholder="Email">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p class="error-message" id="loginError"></p>
+        <p class="text-black fs-6 fw-bold">Don't have an account? <a href="signup.html">Register Now</a></p>
+    </div>
+
+    <!-- Add SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/login-system.js"></script>
+</body>
+</html>

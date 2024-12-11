@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo@2x.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Contact-us</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light py-4">
+        <div class="container">
+          <!-- Navbar Brand -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/logo@2x.png" alt="Logo" style="width: 60px; height: 40px;">
+            <div class="text">
+              <span class="weather-title">Weather</span>
+              <a href="#" class="weather-tagline">Tagline goes here</a>
+            </div>
+          </a>
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#external-navbar" aria-controls="external-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="bi bi-list"></i>
+            </span>
+            <span class="close-icon">
+              <i class="bi bi-x-lg"></i>
+            </span>
+          </button>
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link  " href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="login.html"><i class="fa-solid fa-user nav-link py-3 fa-2x" ></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+      
+      <!-- External Navbar -->
+    <nav id="external-navbar" class="collapse external-navbar text-center">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html"><i class="fa-solid fa-user nav-link py-3 fa-2x" ></i></a>
+          </li>
+        </ul>
+    </nav>
+
+    <section class="contact-us pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="dashboard w-75 mx-auto mt-5">
+              <span class="me-2 ps-4" > <a href="index.html">Home</a> </span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span class="ms-1">Contact</span>
+            </div>
+          </div>
+          <div class="col-lg-6 content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.330764503338!2d31.356261624546264!3d31.044890274435154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79dd4295c80e9%3A0x29c566a018cecb77!2z2KzYp9mF2LnYqSDYp9mE2YXZhti12YjYsdip!5e0!3m2!1sar!2seg!4v1733767602650!5m2!1sar!2seg" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot "></i><span> Egypt , Mansoura</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i><span>+201012477230</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i><span>nasefibrahim935@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-form text-white">
+              <h2>Contact us</h2>
+              <p class="text-white-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint consectetur omnis ab deleniti facere nam. Debitis, incidunt consequatur? Consectetur, repellat repellendus? Sint, consectetur veritatis. Numquam, perspiciatis. Delectus optio quae eius!</p>
+            </div>
+          
+            <div class="row g-3 mt-5">
+              <div class="col-lg-6">
+                <input type="text" class="contact-control" placeholder="Your name....">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" class="contact-control" placeholder="Your email....">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="contact-control" placeholder="Company name....">
+              </div>
+              <div class="col-lg-6">
+                <input type="url" class="contact-control" placeholder="Website....">
+              </div>
+
+                <div class="col-lg-12">
+                  <textarea class="contact-control" rows="5" placeholder="Your message"></textarea>
+                </div>
+
+                <button class="btn btn-info contact-button ms-auto me-4" type="submit"> Submit</button>
+              
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container pt-5">
+          <div class="row gy-4">
+              <div class="col-lg-8">
+                  <div class="input-group w-75 top-50 start-50 translate-middle">
+                      <input type="email" class="form-control form-control-lg " id="email-input" placeholder="Enter your email to Subscribe...">
+                      <button class="btn btn-outline-secondary btn-lg  " type="button">Subscribe</button>
+                    </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="social-icons d-flex justify-content-center gap-3">
+                      <a href="https://www.google.com" target="_blank" class="social-icon">
+                        <i class="fab fa-google"></i> 
+                      </a>
+                      <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i> 
+                      </a>
+                      <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i> 
+                      </a>
+                      <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i> 
+                      </a>
+                    </div>
+                    
+              </div>
+              <div class="col-lg-12">
+                  <div class="footer-text text-center">
+                      <p>
+                          Copyright 2024 Company name. Designed by NASEF. All rights reserved
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
