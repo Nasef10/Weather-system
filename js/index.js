@@ -1,6 +1,7 @@
 const APIKey = "47625da06d634d50a34131956240412";
 const baseURL = "https://api.weatherapi.com/v1/forecast.json";
 
+
 const findInput = document.querySelector("#findInput");
 const forecastContainer = document.querySelector("#weather-cards");
 
@@ -49,7 +50,7 @@ async function displayWeather(city) {
     });
 
     const card = `
-      <div class="col-lg-4 mb-4">
+      <div class="col-lg-4 mb-4 card-info ">
         <div class="card h-100 rounded-4 ">
           <div class="card-header text-center text-white rounded-4 p-4">
             <h5>${dayName}</h5>
@@ -61,6 +62,15 @@ async function displayWeather(city) {
             <img src="https:${day.day.condition.icon}" alt="Weather Icon" />
             <p class="condition">${day.day.condition.text}</p>
           </div>
+          <div class="wind  p-2 mx-auto">
+         <img src="https://routeweather.netlify.app/images/icon-wind.png" alt="">
+          <span>Wind: ${day.day.maxwind_kph} km/h</span>
+          </div>
+          <div class="humidity p-2 mx-auto">
+                    
+              <span>Humidity: ${day.day.avghumidity}%</span>
+          </div>
+          
         </div>
       </div>
     `;

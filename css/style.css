@@ -349,8 +349,11 @@ footer{
     transition: transform 0.3s ease-in-out;
   }
 
-  .forecast:hover {
-    transform: translateY(-10px);
+  .card-info{
+    transition: all 0.6s;
+  }
+  .card-info:hover {
+    transform: translateY(-20px);
   }
 
   .forecast-header {
@@ -389,6 +392,4 @@ footer{
     --bs-card-border-color: none;
   }
 
-  .card-content{
-    margin-top: -10%;
-  }
+ 
